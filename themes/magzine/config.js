@@ -19,10 +19,10 @@ const CONFIG = {
   MAGZINE_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
 
   // Style
-  MAGZINE_RIGHT_PANEL_DARK: process.env.NEXT_PUBLIC_MAGZINE_RIGHT_DARK || false, // 右侧面板深色模式
+  MAGZINE_RIGHT_PANEL_DARK: process.env.NEXT_PUBLIC_MAGZINE_RIGHT_DARK || true, // 右侧面板深色模式
 
-  MAGZINE_POST_LIST_COVER: true, // 文章列表显示图片封面
-  MAGZINE_POST_LIST_PREVIEW: true, // 列表显示文章预览
+  MAGZINE_POST_LIST_COVER: false, // 文章列表显示图片封面
+  MAGZINE_POST_LIST_PREVIEW: false, // 列表显示文章预览
   MAGZINE_POST_LIST_CATEGORY: true, // 列表显示文章分类
   MAGZINE_POST_LIST_TAG: true, // 列表显示文章标签
 
